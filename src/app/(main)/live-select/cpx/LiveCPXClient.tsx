@@ -216,7 +216,7 @@ export default function LiveCPXClient({ category, caseName }: Props) {
             });
 
             const session: any = new RealtimeSession(agent, {
-                model: "gpt-realtime-mini",
+                model: "gpt-realtime-mini-2025-10-06",
                 historyStoreAudio: true //오디오 출력 활성화
             });
             sessionRef.current = session;
